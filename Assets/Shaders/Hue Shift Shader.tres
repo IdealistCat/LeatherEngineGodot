@@ -1,6 +1,6 @@
-[gd_resource type="ShaderMaterial" load_steps=2 format=2]
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://dnxpj0ajmabh3"]
 
-[sub_resource type="Shader" id=1]
+[sub_resource type="Shader" id="1"]
 code = "shader_type canvas_item;
 
 varying float openfl_Alphav;
@@ -114,11 +114,11 @@ void fragment() {
 }"
 
 [resource]
-shader = SubResource( 1 )
-shader_param/openfl_HasColorTransform = null
-shader_param/openfl_TextureSize = null
-shader_param/hasTransform = null
-shader_param/hasColorTransform = null
-shader_param/uTime = 0.0
-shader_param/money = null
-shader_param/awesomeOutline = null
+shader = SubResource("1")
+shader_parameter/openfl_HasColorTransform = null
+shader_parameter/openfl_TextureSize = null
+shader_parameter/hasTransform = null
+shader_parameter/hasColorTransform = null
+shader_parameter/uTime = 0.0
+shader_parameter/money = null
+shader_parameter/awesomeOutline = null
